@@ -1,0 +1,9 @@
+.footer {
+  background: linear-gradient(90deg, #6a0dad, #8a2be2);
+  color: white;
+  text-align: center;
+  padding: 18px;
+  font-size: 0.95rem;
+  font-family: "Poppins", sans-serif;
+  border-top: 2px solid #fff;
+}

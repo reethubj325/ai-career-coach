@@ -1,0 +1,221 @@
+/* Full Page Gradient Background */
+.resume-tools-page {
+  min-height: 100vh;
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+/* White Card Wrapper */
+.resume-tools-wrapper {
+  width: 100%;
+  max-width: 1100px;
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  gap: 15px;
+}
+
+.tab {
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  background: #eee;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #4a0072;
+  transition: 0.3s ease;
+}
+
+.tab:hover {
+  background: #d8c2ff;
+}
+
+.tab.active {
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(106, 13, 173, 0.4);
+}
+
+/* Analyzer Box */
+.analyzer-box {
+  background: #faf7ff;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1.5px solid #d1c4e9;
+}
+
+.analyzer-box h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #3d0066;
+  margin-bottom: 20px;
+}
+
+/* File Input */
+input[type="file"] {
+  padding: 12px;
+  background: #fff;
+  border: 1.5px solid #d1c4e9;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  width: 100%;
+  color: #3d0066;
+}
+
+/* Analyze Button */
+.analyze-btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #ffffff;
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  transition: 0.3s ease;
+}
+
+.analyze-btn:hover {
+  background: linear-gradient(to right, #5a0099, #a24dff);
+  transform: translateY(-2px);
+}
+
+/* Analysis Result Card */
+.analysis-result {
+  margin-top: 25px;
+  padding: 25px;
+  background: #fdfaff;
+  border-radius: 14px;
+  border: 1.5px solid #d1c4e9;
+  overflow-wrap: break-word;
+}
+
+.analysis-result h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #6a0dad;
+  margin-bottom: 15px;
+}
+
+.label-title {
+  margin-top: 20px;
+  font-weight: 700;
+  color: #3d0066;
+  font-size: 16px;
+}
+
+/* Job Roles */
+.job-roles-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #3d0066;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.job-roles {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.role {
+  padding: 8px 18px;
+  background: #f3e5ff;
+  color: #3d0066;
+  font-weight: 600;
+  border-radius: 25px;
+  border: 1px solid #d1b3ff;
+  box-shadow: 0 2px 5px rgba(106, 13, 173, 0.2);
+}
+
+/* Missing Keywords Box */
+.keywords-box {
+  margin-top: 8px;
+  background: #f4eaff;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1.5px solid #c8a9ff;
+  font-size: 15px;
+  color: #3d0066 !important;
+  font-weight: 500;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  line-height: 1.5;
+}
+
+/* Improvements Box */
+.improvements-box {
+  margin-top: 8px;
+  background: #f0e4ff;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1.5px solid #c5a1ff;
+  font-size: 15px;
+  color: #3d0066 !important;
+  font-weight: 500;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
+  line-height: 1.5;
+}
+
+/* Debug Box */
+.debug-box {
+  margin-top: 18px;
+  padding: 12px;
+  background: #1e1e1e;
+  color: #eee;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+/* Debug Button */
+.db-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  border: none;
+  margin-top: 16px;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.db-btn:hover {
+  background: linear-gradient(to right, #5a0099, #a64dff);
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .resume-tools-wrapper {
+    padding: 25px;
+  }
+
+  .role {
+    font-size: 13px;
+    padding: 6px 14px;
+  }
+
+  .analyzer-box h2 {
+    font-size: 22px;
+  }
+}

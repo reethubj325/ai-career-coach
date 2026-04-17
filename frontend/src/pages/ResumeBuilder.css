@@ -1,0 +1,169 @@
+/* ===============================
+   Full purple gradient background
+   =============================== */
+.resume-builder-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ===============================
+   White container – like a card
+   =============================== */
+.resume-builder-container {
+  width: 100%;
+  max-width: 1100px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* ===============================
+   Header / Page title
+   =============================== */
+.resume-title {
+  font-size: 34px;
+  font-weight: 700;
+  color: #3d0066;
+  text-align: center;
+  margin-bottom: 35px;
+  letter-spacing: 0.5px;
+}
+
+/* ===============================
+   Form Styling
+   =============================== */
+.resume-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-align: left; /* left align all text */
+}
+
+.resume-form label {
+  font-weight: 600;
+  color: #3d0066;
+  margin-bottom: 5px;
+  display: block;
+  text-align: left;
+}
+
+/* Textarea and Input Styling */
+.resume-form textarea,
+.resume-form input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1.5px solid #d1c4e9;
+  outline: none;
+  font-size: 14px;
+  background: #faf7ff;
+  color: #3d0066; /* text color visible */
+  transition: border-color 0.3s, background 0.3s;
+  resize: vertical;
+}
+
+.resume-form textarea::placeholder,
+.resume-form input::placeholder {
+  color: #a36acf; /* placeholder visible */
+}
+
+.resume-form textarea:focus,
+.resume-form input:focus {
+  border-color: #6a0dad;
+  background: #fff; /* focused input background more visible */
+  color: #3d0066;
+}
+
+/* ===============================
+   Section headers inside form
+   =============================== */
+.resume-form h3 {
+  color: #6a0dad;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #b266ff; /* underline */
+  padding-bottom: 4px;
+  text-align: left;
+}
+
+/* ===============================
+   Buttons
+   =============================== */
+.resume-form button {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  transition: 0.3s ease, transform 0.2s ease;
+}
+
+.resume-form button:hover {
+  background: linear-gradient(to right, #5a0099, #a64dff);
+  transform: translateY(-2px);
+}
+
+.resume-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ===============================
+   Status messages
+   =============================== */
+.resume-form p {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #3d0066;
+  text-align: center;
+}
+
+/* ===============================
+   Section box for dynamic fields
+   =============================== */
+.section-box {
+  background: #f9f5ff;
+  border: 1.5px solid #d1c4e9;
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+}
+
+.section-box input,
+.section-box textarea {
+  color: #3d0066; /* input text visible */
+  background: #faf7ff;
+}
+
+/* ===============================
+   Responsive adjustments
+   =============================== */
+@media (max-width: 768px) {
+  .resume-builder-wrapper {
+    padding: 30px 15px;
+  }
+
+  .resume-builder-container {
+    padding: 30px;
+  }
+
+  .resume-title {
+    font-size: 28px;
+  }
+
+  .resume-form h3 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,118 @@
+/* Purple gradient background */
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* White card */
+.login-container {
+  background: #fff;
+  padding: 40px 35px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+.login-title {
+  margin-bottom: 20px;
+  color: #3d0066;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+/* Tabs */
+.tab-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  border: 1px solid #d1c4e9;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tab-buttons button {
+  flex: 1;
+  padding: 10px 0;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background: #fff;
+  color: #3d0066;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.tab-buttons .active {
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  color: white;
+}
+
+/* Input fields */
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1.5px solid #d1c4e9;
+  outline: none;
+  font-size: 15px;
+  transition: border 0.3s ease;
+}
+
+.login-form input:focus {
+  border: 1.5px solid #7b2cbf;
+}
+
+/* Forgot link */
+.forgot-link {
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  color: #9b59b6;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+/* Button */
+.btn-login {
+  width: 100%;
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  border: none;
+  color: white;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-login:hover {
+  background: linear-gradient(to right, #5a0099, #a64dff);
+}
+
+/* Bottom text */
+.bottom-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.bottom-text span {
+  color: #7b2cbf;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.bottom-text span:hover {
+  text-decoration: underline;
+}

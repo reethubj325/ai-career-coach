@@ -1,0 +1,59 @@
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #6a0dad, #8a2be2); /* Fully visible purple gradient */
+  color: white;
+  padding: 18px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+  font-family: "Poppins", sans-serif;
+  position: sticky; /* navbar stays at top */
+  top: 0;
+  z-index: 1000;
+  
+}
+
+/* Logo */
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+}
+
+/* Links */
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #e4d1ff;
+  transform: translateY(-2px);
+}
+
+/* Logout button */
+.navbar-links .logout-btn {
+  background: linear-gradient(to right, #ff4dd2, #ff66aa);
+  padding: 6px 14px;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.navbar-links .logout-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 77, 210, 0.4);
+}

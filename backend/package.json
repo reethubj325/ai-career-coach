@@ -1,0 +1,29 @@
+{
+  "name": "career-coach-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.cjs",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "groq-sdk": "^0.37.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "mysql2": "^3.6.0",
+    "nodemailer": "^7.0.11",
+    "openai": "^6.15.0",
+    "pdf-parse": "^2.4.5",
+    "pdf2json": "^4.0.0",
+    "pdf2pic": "^3.2.0",
+    "pdfjs-dist": "^3.5.141",
+    "tesseract.js": "^6.0.1",
+    "uuid": "^13.0.0"
+  }
+}

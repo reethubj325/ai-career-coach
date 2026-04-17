@@ -1,0 +1,269 @@
+
+/* ===============================
+   Quiz Container
+=============================== */
+.quiz-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(106, 13, 173, 0.2);
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===============================
+   Topic Input Section
+=============================== */
+.topic-box {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.topic-box input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1.5px solid #d1c4e9;
+  color: #3d0066;
+}
+
+.topic-box button {
+  padding: 12px 26px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.topic-box button:hover {
+  background: linear-gradient(to right, #5a0099, #a24dff);
+  transform: translateY(-2px);
+}
+
+/* ===============================
+   Quiz Header
+=============================== */
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.quiz-header h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3d0066;
+}
+
+/* ===============================
+   Exit Button
+=============================== */
+.exit-btn {
+  padding: 10px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(to right, #dc3545, #ff6b6b);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.exit-btn:hover {
+  background: linear-gradient(to right, #c82333, #ff4d4d);
+  transform: translateY(-2px);
+}
+
+/* ===============================
+   Question Box
+=============================== */
+.question-box {
+  background: #faf7ff;
+  border: 1.5px solid #d1c4e9;
+  padding: 25px;
+  border-radius: 16px;
+}
+
+.question-box h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3d0066;
+  margin-bottom: 15px;
+}
+
+/* ===============================
+   Options
+=============================== */
+.option {
+  display: block;
+  margin-bottom: 12px;
+  padding: 12px 15px;
+  border-radius: 12px;
+  border: 1.5px solid #d1c4e9;
+  background: #faf0ff;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: 15px;
+  color: #3d0066;
+}
+
+.option input {
+  margin-right: 10px;
+}
+
+.option:hover {
+  background: #f0e4ff;
+}
+
+/* ===============================
+   Quiz Navigation Buttons
+=============================== */
+.quiz-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.quiz-actions button {
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  color: white;
+  transition: 0.3s ease;
+}
+
+.quiz-actions button:hover {
+  background: linear-gradient(to right, #5a0099, #a24dff);
+  transform: translateY(-2px);
+}
+
+/* ===============================
+   Submit Button
+=============================== */
+.submit-btn {
+  background: linear-gradient(to right, #198754, #3ccf91) !important;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(to right, #157347, #2db37d) !important;
+}
+
+/* ===============================
+   Exit Confirmation Modal
+=============================== */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(74, 0, 114, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal-box {
+  width: 380px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid #b266ff;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(106, 13, 173, 0.35);
+  animation: modalFade 0.3s ease;
+}
+
+.modal-box h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #6a0dad;
+  margin-bottom: 12px;
+}
+
+.modal-box p {
+  font-size: 15px;
+  color: #3d0066;
+  line-height: 1.6;
+}
+
+/* ===============================
+   Modal Buttons
+=============================== */
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.yes-btn {
+  padding: 10px 22px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.yes-btn:hover {
+  background: linear-gradient(to right, #5a0099, #a24dff);
+  transform: translateY(-2px);
+}
+
+.no-btn {
+  padding: 10px 22px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  background: #e0d4ff;
+  color: #4a0072;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.no-btn:hover {
+  background: #d1c4e9;
+  transform: translateY(-2px);
+}
+
+/* ===============================
+   Modal Animation
+=============================== */
+@keyframes modalFade {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ===============================
+   Responsive
+=============================== */
+@media (max-width: 600px) {
+  .quiz-container {
+    padding: 20px;
+  }
+
+  .quiz-header h2 {
+    font-size: 16px;
+  }
+
+  .modal-box {
+    width: 90%;
+  }
+}

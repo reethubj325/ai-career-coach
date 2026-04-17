@@ -1,0 +1,184 @@
+
+/* Full purple gradient background */
+.mock-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* White container */
+.mock-container {
+  width: 100%;
+  max-width: 1100px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.20);
+}
+
+/* Title */
+.title {
+  text-align: center;
+  color: #3d0066;
+  font-size: 32px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 20px;
+  color: #6a0dad;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* Spacing */
+.section {
+  margin-bottom: 35px;
+}
+
+/* Questions List */
+.question-list {
+  background: #f3e8ff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #d1c4e9;
+}
+
+.question-list li {
+  margin-bottom: 8px;
+  color: #5c0099;
+  font-weight: 500;
+}
+/* Current Question Title (ADDED) */
+.current-question-title {
+  color: #6a0dad;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+/* Fix current question visibility */
+.current-question {
+  background: #f2f0f5;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #d1c4e9;
+  color: #3d0066 !important;   /* Visible blue-purple */
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Medium size video */
+.live-video,
+.playback-video {
+  width: 75%;
+  max-width: 550px;   /* Medium size */
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid #b266ff;
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+
+
+/* Gradient Button */
+.primary-btn {
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  border: none;
+  padding: 12px 18px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 15px;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.primary-btn:hover {
+  background: linear-gradient(to right, #5a0099, #a64dff);
+  transform: translateY(-3px);
+}
+
+/* Video */
+.live-video,
+.playback-video {
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid #b266ff;
+  margin-bottom: 15px;
+}
+
+/* Record Buttons */
+.record-btn,
+.stop-btn,
+.upload-btn,
+.feedback-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.record-btn {
+  background: #6a0dad;
+  color: #fff;
+}
+
+.stop-btn {
+  background: #ff4d6d;
+  color: #fff;
+}
+
+.upload-btn {
+  background: #7b2cbf;
+  color: #fff;
+}
+
+.feedback-btn {
+  background: #5a0099;
+  color: #fff;
+}
+
+/* Hover effects */
+.record-btn:hover,
+.stop-btn:hover,
+.upload-btn:hover,
+.feedback-btn:hover {
+  transform: translateY(-3px);
+}
+
+
+/* Feedback Box */
+.feedback-box {
+  background: #f8f0ff;
+  border-left: 5px solid #6a0dad;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+/* AI Feedback Title (ADDED) */
+.feedback-title {
+  font-size: 22px;
+  color: #6a0dad;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.feedback-box pre {
+  white-space: pre-wrap;
+  color: #3d0066;       /* Visible text */
+  font-size: 15px;
+  font-weight: 500;
+}

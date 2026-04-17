@@ -1,0 +1,109 @@
+.register-wrapper {
+  background: linear-gradient(to bottom, #c7a4ff, #a66cff);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.register-container {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  padding: 40px 45px;
+  width: 400px;
+  text-align: center;
+}
+
+.register-container h2 {
+  color: #5a189a;
+  margin-bottom: 20px;
+}
+
+.register-form label {
+  display: block;
+  text-align: left;
+  color: #5a189a;
+  font-weight: 600;
+  margin-bottom: 6px;
+  margin-top: 10px;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #a66cff;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  outline: none;
+  background-color: #fdfaff;
+}
+
+.register-form input:focus {
+  border-color: #7b2cbf;
+}
+
+.password-container {
+  position: relative;
+}
+
+.show-btn {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  background: none;
+  border: none;
+  color: #7b2cbf;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.password-errors {
+  text-align: left;
+  font-size: 13px;
+  color: red;
+  margin: 5px 0 10px 0;
+  padding-left: 15px;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #7b2cbf, #9d4edd);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-btn:hover {
+  background: linear-gradient(to right, #5a189a, #7b2cbf);
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+  color: green;
+  font-weight: 500;
+}
+
+.auth-links {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #aa5ce1;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: #7b2cbf;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 600;
+}

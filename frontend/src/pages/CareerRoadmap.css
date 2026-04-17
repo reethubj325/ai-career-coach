@@ -1,0 +1,99 @@
+/* Background */
+.career-container {
+  min-height: 100vh;
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* White centered box */
+.career-box {
+  width: 100%;
+  max-width: 800px;
+  background: white;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.career-box h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #3d0066;
+  margin-bottom: 10px;
+}
+
+/* Search bar */
+.input-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.input-section input {
+  width: 60%;
+  max-width: 450px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #6a0dad;      /* Purple border */
+  background: #ffffff;             /* White background */
+  color: #3d0066;                  /* Blue text */
+  font-weight: 500;
+}
+
+/* Placeholder color */
+.input-section input::placeholder {
+  color: #3d0066;
+  opacity: 0.7;
+}
+
+
+.input-section button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Error */
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* Steps ALWAYS below search bar */
+.flowchart {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* A single step box */
+.step {
+  background: #faf5ff;
+  padding: 15px 18px;
+  border-radius: 10px;
+  border-left: 5px solid #6a0dad;
+  color: #3d0066;
+  box-shadow: 0 3px 10px rgba(106, 13, 173, 0.15);
+}
+
+/* Disable branches permanently */
+.branch,
+.branch-step {
+  display: none !important;
+}

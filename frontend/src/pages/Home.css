@@ -1,0 +1,225 @@
+/* Full purple gradient background for the entire page */
+.home-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-links li:hover {
+  color: #ffd6ff;
+}
+
+.logout-btn {
+  color: #ffebeb;
+  font-weight: 600;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 1100px;
+  margin-bottom: 50px;
+}
+
+.hero-text {
+  flex: 1 1 400px;
+  color: #fff;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  color: #f3e6ff;
+  margin-bottom: 25px;
+}
+
+.get-started-btn {
+  padding: 14px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.get-started-btn:hover {
+  background: linear-gradient(to right, #5a0099, #a64dff);
+  transform: translateY(-2px);
+}
+
+.hero-image {
+  flex: 1 1 400px;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 15px;
+  border: 2px solid #fff;
+}
+
+/* Section containers (white background cards) */
+.info-section,
+.about-section,
+.feedback-section {
+  width: 100%;
+  max-width: 1100px;
+  background: #fff;
+  border-radius: 14px;
+  padding: 40px;
+  margin-bottom: 50px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Section Titles */
+.info-section h2,
+.about-section h2,
+.feedback-section h2 {
+  color: #3d0066;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+/* Section text */
+.info-section p,
+.about-section p,
+.feedback-section p {
+  color: #7b2cbf;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Info boxes grid */
+.info-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.info-box {
+  background: #faf7ff;
+  border-radius: 12px;
+  padding: 25px;
+  border: 1.5px solid #d1c4e9;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.info-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 18px rgba(106, 13, 173, 0.2);
+}
+
+.info-box h3 {
+  font-size: 20px;
+  color: #3d0066;
+  margin-bottom: 10px;
+}
+
+.info-box p {
+  color: #7b2cbf;
+  font-size: 14px;
+}
+
+/* Feedback Section textarea and button */
+.feedback-section textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1.5px solid #d1c4e9;
+  outline: none;
+  resize: vertical;
+  font-size: 14px;
+  background: #faf7ff;
+  margin-bottom: 15px;
+}
+
+.feedback-section textarea:focus {
+  border-color: #6a0dad;
+}
+
+.feedback-section button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to right, #6a0dad, #b266ff);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.feedback-section button:hover {
+  background: linear-gradient(to right, #5a0099, #a64dff);
+  transform: translateY(-2px);
+}
+
+.success-message {
+  color: #3d0066;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: #b20000;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  color: #fff;
+  margin-top: 40px;
+  font-weight: 500;
+}
